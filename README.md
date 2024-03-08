@@ -1,4 +1,4 @@
-## JOKENPO - PR-BR
+## JOKENPO - PT-BR
 
 Jogo foi desenvolvido por mim com intuíto de fixar meus recentes aprendizados em Javascript.
 
