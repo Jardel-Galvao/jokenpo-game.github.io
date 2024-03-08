@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="icon" type="image/x-icon" href="img/icon.svg">
+</head>
+<body>
+    <header>
+        <!-- <h1>JOKENPO</h1> -->
+        <img src="img/header.png" class="img-header">
+    </header>
+    <div class="game-window">
+        <div class="score">
+            <div class="your-score">
+                <span>YOU:</span>
+                <span class="your-points">0</span>
+            </div>
+            <div class="cpu-score">
+                <span>CPU:</span>
+                <span class="cpu-points">0</span>
+            </div>
+        </div>
+        <div class="game-screen">
+            <div class="you">
+                <div class="container-emotion">
+                    <img src="img/emojis/victory/1.png" class="your-emotion">
+                </div>
+                <img src="img/You.png" class="your-choice">
+            </div>
+            <div class="arena">
+                <span class="display">START THE GAME!</span>
+            </div>
+            <div class="cpu">
+                <div class="container-emotion">
+                    <img src="img/emojis/victory/1.png" class="cpu-emotion">
+                </div>
+                <img src="img/Cpu.png" class="cpu-choice">
+            </div>
+        </div>
+        <div class="panel">
+            <div class="action">
+                <img src="img/rock.png" alt="rock" class="rock">
+                <img src="img/papper.png" alt="papper" class="papper">
+                <img src="img/scissor.png" alt="scissor" class="scissor">
+            </div>
+            <div class="buttons">
+                <button id="btn-start">START</button>
+                <button id="btn-stop">STOP</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>
