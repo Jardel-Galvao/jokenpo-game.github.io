@@ -45,8 +45,8 @@ class Game{
 
     // CLEAN IMAGE
     async cleanImages(){
-        this.yourChoiceElement.src = 'img/you.png';
-        this.cpuChoiceElement.src = 'img/cpu.png';
+        this.yourChoiceElement.src = '/img/you.png';
+        this.cpuChoiceElement.src = '/img/cpu.png';
     }
 
     // SET IMAGE
