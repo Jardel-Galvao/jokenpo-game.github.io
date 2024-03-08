@@ -45,8 +45,8 @@ class Game{
 
     // CLEAN IMAGE
     async cleanImages(){
-        this.yourChoiceElement.src = '/img/you.png';
-        this.cpuChoiceElement.src = '/img/cpu.png';
+        this.yourChoiceElement.src = 'img/you.png';
+        this.cpuChoiceElement.src = 'img/cpu.png';
     }
 
     // SET IMAGE
@@ -54,8 +54,8 @@ class Game{
         this.yourChoiceElement.style.transform = 'scale(0)';
         this.cpuChoiceElement.style.transform = 'scale(0)';
         await this.delay(1000);
-        this.yourChoiceElement.src = `/img/${this.options[yourChoice]}.png`;
-        this.cpuChoiceElement.src = `/img/${this.options[cpuChoice]}.png`;
+        this.yourChoiceElement.src = `img/${this.options[yourChoice]}.png`;
+        this.cpuChoiceElement.src = `img/${this.options[cpuChoice]}.png`;
 
         this.yourChoiceElement.style.transform = 'scale(1)';
         this.cpuChoiceElement.style.transform = 'scale(1)';
